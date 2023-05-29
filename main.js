@@ -9,7 +9,7 @@ const renderTasks = (taskLists) => {
     .map((task) => {
       return `
       <li class="task">
-        <span class="task-check"><input type="checkbox" /></span>
+        <input class="task-check" type="checkbox" />
         <span class="task-text">${task}</span>
       </li>
     `

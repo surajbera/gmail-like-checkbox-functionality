@@ -33,7 +33,7 @@ body {
   display: -ms-flexbox;
   display: flex;
 }
-.task-check input[type='checkbox'] {
+input[type='checkbox'] {
   width: 1.5rem;
   height: 1.5rem;
 }
@@ -57,4 +57,7 @@ body {
   top: 0;
   left: 3.5rem;
   background: #f0f0f0;
+}
+input[type='checkbox']:checked + .task-text {
+  text-decoration: line-through;
 }
