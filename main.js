@@ -33,7 +33,7 @@ let lastChecked = null
 const checkBoxes = document.querySelectorAll('.task-check')
 
 const handleCheckboxClick = function (evt) {
-  if (evt.shiftKey && this.checked && lastChecked) {
+  if (evt.shiftKey && this.checked && this !== lastChecked && lastChecked) {
     let inBetween = false
 
     checkBoxes.forEach((checkbox) => {
