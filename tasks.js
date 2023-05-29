@@ -12,16 +12,6 @@ const taskLists = [
   'Learn Swift',
   'Learn Go',
   'Learn PHP',
-  'Learn Ruby',
-  'Learn Scala',
-  'Learn Kotlin',
-  'Learn Swift',
-  'Learn Swift',
-  'Learn Swift',
-  'Learn Swift',
-  'Learn Swift',
-  'Learn Swift',
-  'Learn Swift',
 ]
 
 export { taskLists }

@@ -33,3 +33,28 @@ body {
   display: -ms-flexbox;
   display: flex;
 }
+.task-check input[type='checkbox'] {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.task {
+  display: flex;
+  align-items: center;
+  padding: 1.3rem 0.5rem;
+  gap: 2rem;
+  border-bottom: 1px solid #f0f0f0;
+}
+.tasks-wrapper {
+  max-width: 30rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+.tasks-wrapper::before {
+  content: '';
+  position: absolute;
+  width: 1px;
+  height: 100%;
+  top: 0;
+  left: 3.5rem;
+  background: #f0f0f0;
+}
